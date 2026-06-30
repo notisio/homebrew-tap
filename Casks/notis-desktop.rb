@@ -1,13 +1,13 @@
 cask "notis-desktop" do
-  version "0.1.12"
+  version "0.1.13"
 
   on_arm do
-    sha256 "b9e0b21407260ce3d37126cc99863176cb08af5f2752e232efa028178e517d96"
-    url "https://github.com/notisio/notis-cli/releases/download/desktop-v0.1.12/Notis-0.1.12-arm64.dmg"
+    sha256 "0e3b5cb273a432636b37aebdb7085c14f6bd00b2b44b22758aa020bd2b5b1589"
+    url "https://github.com/notisio/notis-cli/releases/download/desktop-v0.1.13/Notis-0.1.13-arm64.dmg"
   end
   on_intel do
-    sha256 "0f359c9b7bf74eac07ed0fe113d9b5f0c77d43073788501dd30f7fa1d9bc87ad"
-    url "https://github.com/notisio/notis-cli/releases/download/desktop-v0.1.12/Notis-0.1.12-x64.dmg"
+    sha256 "8e947a0503a8e875e47645299730b23dc4da167c059b134683375cae7aefae56"
+    url "https://github.com/notisio/notis-cli/releases/download/desktop-v0.1.13/Notis-0.1.13-x64.dmg"
   end
 
   name "Notis"
